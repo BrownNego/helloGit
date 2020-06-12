@@ -19,25 +19,39 @@ body{
 	align-items: center;
 }
 
+
 .content2 button{
 	border-radius: 7px 7px 0 0;
 	background-color: #06445c;
-	border: 1px solid #0fa5db;
+	border: 0;
 	color: white;
 	padding: 25px 0;
 	width: 450px;
 	font-size: 15px;
 	z-index: 0;
+	
+}
+
+.content2 button:hover{
+	transition: 1s;
+	background-color: #075775;
 }
 
 #mensage {
 	color: #087ba8;
+	transition: margin-top 1s;
+	margin-top: -60px;	
 	display: none;
-	transition: margin-top .60s;
-	margin-top: -50px;
-	z-index: -1;
-	
-	
+}
+
+#mensage img {
+	object-fit: cover;
+	width: 420px;
+	height: 5px;
+	object-position: 0% 50%;
+	border-radius: 0 0 10px 10px;
+	transition: height 1s;
+
 }
 
 
