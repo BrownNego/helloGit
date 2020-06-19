@@ -1,16 +1,15 @@
-body{
+body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
+
 .content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
 	/* margin: 50px 0 0 300px; */
-
-
 }
 
 .content2 {
@@ -19,8 +18,7 @@ body{
 	align-items: center;
 }
 
-
-.content2 button{
+.content2 button {
 	border-radius: 7px 7px 0 0;
 	background-color: #06445c;
 	border: 0;
@@ -29,10 +27,9 @@ body{
 	width: 450px;
 	font-size: 15px;
 	z-index: 0;
-	
 }
 
-.content2 button:hover{
+.content2 button:hover {
 	transition: 1s;
 	background-color: #075775;
 }
@@ -40,7 +37,7 @@ body{
 #mensage {
 	color: #087ba8;
 	transition: margin-top 1s;
-	margin-top: -60px;	
+	margin-top: -60px;
 	display: none;
 }
 
@@ -51,7 +48,18 @@ body{
 	object-position: 0% 50%;
 	border-radius: 0 0 10px 10px;
 	transition: height 1s;
-
 }
 
+button img {
+	width: 50px;
+	margin: -10px;
+}
 
+#maps{
+	border: 1px black solid;
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	top: 400px;
+	
+}
